@@ -184,7 +184,7 @@ h3 {
 }
 
 .nosotros p {
-  margin-left: .5rem;
+  margin: 0 .5rem ;
 }
 
 @media (min-width: 768px) {
