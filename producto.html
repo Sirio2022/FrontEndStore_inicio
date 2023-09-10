@@ -25,12 +25,46 @@
     <nav class="nav">
       <a class="nav__enlace" href="index.html">Tienda</a>
       <a class="nav__enlace nav__enlace--activo" href="nosotros.html"
-        >Nuestros Productos</a
+        >Nosotros</a
       >
     </nav>
 
     <main class="contenedor">
-      <h1>Nosotros</h1>
+      <h1>React</h1>
+
+      <div class="camisa">
+        <img src="img/3.jpg" alt="img camisa" />
+
+        <div class="camisa__contenido">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            voluptatum, quibusdam, voluptate, quia quod quas voluptas voluptatem
+            quos doloribus quae doloremque.
+          </p>
+
+          <form class="formulario">
+            <select class="formulario__campo">
+              <option value="" disabled selected>-- Talla --</option>
+              <option value="">Small</option>
+              <option value="">Medium</option>
+              <option value="">Large</option>
+            </select>
+
+            <input
+              class="formulario__campo"
+              type="number"
+              placeholder="Cantidad"
+              min="1"
+            />
+            <!-- Deja escribir letras por que en Mobile sale el teclado de numeros, y queremos esto aca necesitamos JS -->
+            <input
+              class="formulario__submit"
+              type="submit"
+              value="agrear al carrito"
+            />
+          </form>
+        </div>
+      </div>
     </main>
 
     <footer class="footer">
